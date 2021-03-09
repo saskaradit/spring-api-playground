@@ -18,6 +18,7 @@ public class BeanConfiguration {
         return users;
     }
 
+//    Cuma tambahan, name gaboleh duplikat
     @Bean(name = "second_users")
     public List<User> getSecondUsers(){
         List<User> users = new ArrayList<>();
